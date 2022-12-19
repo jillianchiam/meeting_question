@@ -1,8 +1,21 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Arial';
 }
 
+
+body {
+    color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    align-items: center;  
+    gap: 10px;
+    padding: 10px;
+}
 
 .hide {
     display: none;
